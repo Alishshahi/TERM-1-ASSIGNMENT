@@ -1,0 +1,192 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	font-style:Sans-serif;
+}
+body{
+ background: url("IMG-20210514-WA0013.jpg");
+/*-- Pixabay[online] [Uploaded at December 23 2016] Available from: (https://www.pexels.com/photo/blur-bottle-bright-building-273238)[Accessed 18 may 2021] ----*/
+
+background-repeat: no-repeat;
+background-position: cover;
+background-size: cover;
+background-attachment:fixed;
+
+}
+
+:root{
+  --color-1: rgba(0 0 0/ 64%);
+  /*--https://www.w3schools.com/css/tryit.asp?filename=trycss3_var--*/
+  }
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.container1{
+	max-width: 1170px;
+	margin-left:20px;
+	
+
+}
+.menu{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+/*header*/
+.header-items{
+	background-color: var(--color-1);
+	padding:12px 0;
+	position: relative;
+}
+/*--navbar--*/
+.header-items .nav{
+	padding:0 10px;
+
+
+}
+.header-items .nav ul li{
+	display: inline-block;
+	margin-left:10px;
+
+}
+.header-items .nav ul li a{
+	display: block;
+	font-size: 16px;
+	padding:10px 10px;
+	color: #ff9800;
+	margin-left:10px;
+	font-weight: bold;
+	transition:0.4s ease-in-out;
+}
+.header-items .nav ul li a:hover{
+	border-radius: 10px 10px;
+	background-color: crimson;
+	color: black;
+	box-shadow: 5px 10px 30px rgba(219, 47, 6, 0.5);
+	}
+
+
+.header-items #nav-check{
+	position: absolute;
+	opacity:0;
+	pointer-events: none;
+}
+.nav-toggler{
+	height: 44px;
+	width: 55px;
+	background-color: #ffffff;
+	border-radius: 15px;
+	cursor: pointer;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	margin-right: 15px;
+}
+.nav-toggler span{
+	display: block;
+	height: 4px;
+	width: 30px;
+	background-color: #009688;
+	position: relative;
+}
+.nav-toggler span::before,
+.nav-toggler span::after{
+   content: '';
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color: var(--color-1);
+   left:0;
+}
+.nav-toggler span::before{
+	top: -6px;
+}
+.nav-toggler span::after{
+	top: 6px;
+}
+@media(max-width: 991px){
+    .nav-toggler{
+    	display: flex;
+    
+   }
+   /*--nav menu will be hidden*/
+    .header-items .nav{
+    	position: absolute;
+    	left:0;
+    	top:100%;
+    	width: 100%;
+    	background-color:rgb(60, 60, 60);
+    	border:5px solid rgba(255,255,255,0.2);
+    	opacity:0;
+    	visibility: hidden;
+    }
+     .header-items .nav ul li a{
+    	border:5px solid rgba(255,255,255,0.2);	 
+    }
+    .header-items .nav ul li{
+    	display: block;
+    	margin:0;
+    }
+    /*--nav menu will be visible*/
+    .header-items #nav-check:checked ~ .nav{
+       opacity: 1;
+       visibility: visible;
+    }
+    .header-items #nav-check:focus ~ .nav-toggler{
+    	box-shadow: 0 0 15px #000000;
+    }
+    .header-items #nav-check:checked ~ .nav-toggler span{
+    	background-color: transparent;
+    }
+    .header-items #nav-check:checked ~ .nav-toggler span::before{
+    	top:0;
+    	transform: rotate(45deg);
+    }
+    .header-items #nav-check:checked ~ .nav-toggler span::after{
+    	top:0;
+    	transform: rotate(-45deg);
+    }
+}
+
+/*--for text--*/
+
+.home-text{
+	position:fixed;
+	left:50%; 
+	top:50%;
+	transform: translate(-50%,-50%);
+	width: 90%;
+	color: #000;
+	font-style: italic;
+	letter-spacing: 1px;
+	margin: 0px;
+}
+.home-text h1 span{
+	color: red;
+	font-weight: 700;
+}
+.home-text p span{
+	color:red;
+	font-weight: 500;
+    text-decoration: underline;
+}
+ .logo a{
+	color:#000;
+	font-size: 25px;
+	font-weight: 600;
+	border-radius:10px 5px;
+}
+ .logo a:hover{
+	background-color:#deb887;
+	border-radius:10px 5px;
+}
+.logo span{
+	color:red;
+	font-size: 35px;
+}
+
