@@ -344,15 +344,13 @@ textarea{
 
   .page2{
 
-  		 background: url("IMG-20210514-WA0013.jpg");
+background: url("IMG-20210514-WA0013.jpg");
 /*-- Photo clicked by me [Accessed 24 may 2021] ----*/
 background-repeat: no-repeat;
 background-position: cover;
 background-size: cover;
 background-attachment:fixed;
-
 }
-
   .box-outer{
    width: 100%;	
 }
@@ -367,7 +365,6 @@ background-attachment:fixed;
 	background-color:#000;
 	margin:0 auto;
 	border-radius:20px;
-
 }
 
 .box-outer{
@@ -381,7 +378,6 @@ background-attachment:fixed;
 	float:left;
 	height:1150px;
 	border-radius:20px;
-
 }
 
 .mypic{
@@ -508,8 +504,6 @@ background-attachment:fixed;
 	width:60%;
 	float:left;
 	padding:20px;
-
-	
 }
 .box2 .detail h1{
 	font-weight:800;
@@ -517,9 +511,6 @@ background-attachment:fixed;
 	font-size: 30px;
 	text-align: center;
 	font-family: system-ui;
-
-
-	
 }
 .box2 .detail p{
 	color:#fff8c6;
@@ -543,29 +534,44 @@ background-attachment:fixed;
 .box2 .detail1 p span{
 	
 	font-weight: bold;
+
 }
+
 .socialmedia-logo{
-	margin-top:100px;
-	color:#fff8c6;
-	display:flex;
-
-
-}
-  .socialmedia-logo  img{
-
-	width:80px;
-	flex:row;
+	margin-top:300px;
+  	display:grid;
+  	grid-template-columns: repeat(3, 1fr);
+  	grid-gap:30px;
+  
+	}
 	
-
+.socialmedia-logo img{
+     transition: transform .3s;
+     width:100px;
 }
+.socialmedia-logo img:hover{
+		transform: translateY(10px);
+}
+.socialmedia-logo .facebook-logo{
+	margin:-3px;
+}
+	.socialmedia-logo .facebook-logo p{
+		margin-top:-15px;
+	}
+
 .socialmedia-logo .instagram-logo{
-	margin-left:10px;
-} 
- 
- 	
+	margin-top:5px;
+	}
+	.socialmedia-logo .twitter-logo img{
+		width:80px;
+		margin-top:10px;
+	}
 
-
-
+.socialmedia-logo p{
+	color:#fff8c6;
+	font-family:system-ui;
+	text-align:center;
+}
 
   /*--portfolio--*/
 
@@ -609,9 +615,6 @@ background-attachment:fixed;
   }
   .intro h1{
   	color:#4d0000;
-
-
-  
   }
   .content1{
   	margin:5px;
@@ -619,13 +622,11 @@ background-attachment:fixed;
   	grid-template-columns: repeat(3, 1fr);
   	grid-gap:30px;
   	align-items:center;
+  	/*w3schools[online]. Available from: (https://www.w3schools.com/cssref/pr_grid-template-columns.asp)*/
 
   }
   .photo1{
   	width: 80%;
-  	 
-
-
 
   }
   .photo1  img{
@@ -633,16 +634,14 @@ background-attachment:fixed;
   	width:100%;
   	height: 100%;
   	display:block;
-   border-radius:20px;
-   transition: transform .3s;
+    border-radius:20px;
+    transition: transform .3s;
 
   }
    	.photo1  img:hover{
   	border-radius: 20px;
   	transform: translateY(5px);
   }
-
-
   .photo1-content{
   	line-height: 1.2;
   	font-size:14px;
@@ -652,14 +651,11 @@ background-attachment:fixed;
   	padding-left: 60px;
   	margin-left:20px;
   	border-radius:20px;
-  	
   }
-
-     .photo1-content p{
+  .photo1-content p{
   padding-left: 50px;
 
 }
-
 .photo1-content button{
 	background: #ef6f6c;
 	border-radius:5px;
@@ -684,4 +680,108 @@ background-attachment:fixed;
  }
   
  
- 
+  /*---site report---*/
+
+
+.page4{
+	background-color:#242526;
+}
+.report-content {
+	margin: 80px;
+}
+.report-content h1{
+	text-align: center;
+	margin-right: 200px;
+
+}
+.report-content h2{
+	text-align: center;
+	margin-right: 200px;
+}
+.report-content p{
+	padding:5px;
+}
+.report-content .image2{
+	margin:70px;
+	border-radius:20px;
+	box-shadow:0 5px 35px #ebd8b7;
+    border:8px solid transparent;
+       transition: transform .3s;
+       
+	}
+	.report-content img:hover{
+		transform: translateY(10px);
+	}
+	.report-content .image1{
+	padding:10px 10px;
+	margin:70px;
+	border-radius:20px;
+	box-shadow:0 5px 35px #ebd8b7;
+    border:8px solid transparent;
+    transition: transform .3s;
+	}
+
+	.home-page{
+		display:flex;
+		margin-top:40px;
+	}
+		.home-page img{
+	border-radius:20px;
+	box-shadow:0 5px 35px #ebd8b7;
+    border:8px solid transparent;
+    transition: transform .3s;
+		}
+	
+	.home-page .screenshot{
+		display: flex;
+		flex-direction:column;
+		width:700px;
+		margin:30px;
+
+	}
+
+	.home-page .screenshot .root{
+		width:400px;
+		margin:20px;
+	}
+
+
+.contact-page{
+	margin:5px;
+  	display:grid;
+  	grid-template-columns: repeat(3, 1fr);
+  	grid-gap:30px;
+  
+	}
+	.contact-page img{
+	border-radius:20px;
+	box-shadow:0 5px 35px #ebd8b7;
+    border:8px solid transparent;
+     transition: transform .3s;
+		}
+
+	.contact-page .screenshot1{
+	
+		margin:30px;
+	}
+
+	.portfolio-page{
+		display:flex;
+		margin-top:40px;
+	}
+	.portfolio-page img{
+	border-radius:20px;
+	box-shadow:0 5px 35px #ebd8b7;
+    border:8px solid transparent;
+    transition: transform .3s;
+    height:300px;
+		}
+
+	.portfolio-page .screenshot2{
+		display: flex;
+		flex-direction:column;
+		margin:30px;
+		margin-left:120px;
+		width:300px;
+
+	}
