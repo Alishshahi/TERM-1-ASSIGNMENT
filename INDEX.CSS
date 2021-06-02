@@ -2,13 +2,12 @@
 	box-sizing: border-box;
 	margin:0;
 	padding:0;
-	font-style:Sans-serif;
+	font-family:Sans-serif;
 }
 .page{
  background: url("IMG-20210514-WA0013.jpg");
  /*-- Photo clicked by me [Accessed 24 may 2021] ----*/
 background-repeat: no-repeat;
-background-position: cover;
 background-size: cover;
 background-attachment:fixed;
 
@@ -28,7 +27,6 @@ ul{
 	max-width: 1170px;
 	margin-left:0px;
 	
-
 }
 .menu{
 	display: flex;
@@ -197,7 +195,6 @@ border:8px solid transparent;
 	 background: url("IMG-20210514-WA0013.jpg");
 	 /*-- Photo clicked by me [Accessed 24 may 2021] ----*/
 background-repeat: no-repeat;
-background-position: cover;
 background-size: cover;
 background-attachment:fixed;
 
@@ -212,8 +209,7 @@ background-attachment:fixed;
 	padding: 8px 100px;
 }
 .here1{
-	background-color: red;
-	color:#c0c0c0 rgb(192,192,192);
+	background-color: #ff0000;
 	border-radius: 10px 5px;
 }
 .page1 .contact .content{
@@ -347,16 +343,12 @@ textarea{
 background: url("IMG-20210514-WA0013.jpg");
 /*-- Photo clicked by me [Accessed 24 may 2021] ----*/
 background-repeat: no-repeat;
-background-position: cover;
 background-size: cover;
 background-attachment:fixed;
-}
-  .box-outer{
-   width: 100%;	
+
 }
 .here1{
 	background-color: rgb(0 150 136 / 52%);
-	color:	#c0c0c0 rgb(192,192,192);
 	border-radius: 10px 5px;
 }
 .cv-box{
@@ -369,6 +361,7 @@ background-attachment:fixed;
 
 .box-outer{
 	padding:80px ;
+	width: 100%;
 
 }
 
@@ -390,7 +383,6 @@ background-attachment:fixed;
 }
 .box1 h1{
 	color:#ceced1;
-	font-family:system-ui; 
 	 font-weight: 500;
 	 padding-left: 50px;
 }
@@ -410,7 +402,6 @@ background-attachment:fixed;
 .box1 p{
 
 	color:#ceced1;
-	font-family: system-ui;
 	font-weight:200;
 	padding-left:5px;
 	padding-top: 50px;
@@ -419,7 +410,6 @@ background-attachment:fixed;
 .box1 h2{
 
 	color:#ceced1;
-	font-family:system-ui;
 	font-weight: 500;
 	padding-left:80px;
 
@@ -454,6 +444,7 @@ background-attachment:fixed;
 	border-radius:12px;
 	height:8px;
 	width:80%;
+	
 
 }
 
@@ -464,8 +455,9 @@ background-attachment:fixed;
 	border-radius:13px;
 	height:8px;
 	width:30%;
-
 }
+
+/* Developer.mozilla[online]. Available from:(https://developer.mozilla.org/en-US/docs/Web/CSS/::after)[Accessed 28 May 2021]*/
 
 #skill2{
 	background-color:#333;
@@ -473,7 +465,6 @@ background-attachment:fixed;
 	height:8px;
 	width:80%;
 	
-
 }
 
 #skill2:after{
@@ -484,6 +475,7 @@ background-attachment:fixed;
 	height:8px;
 	width:50%;
 }
+/* Developer.mozilla[online]. Available from:(https://developer.mozilla.org/en-US/docs/Web/CSS/::after)[Accessed 28 May 2021]*/
 #skill3{
 	background-color:#333;
 	border-radius:12px;
@@ -499,6 +491,7 @@ background-attachment:fixed;
 	height:8px;
 	width:70%;
 }
+/* Developer.mozilla[online]. Available from:(https://developer.mozilla.org/en-US/docs/Web/CSS/::after)[Accessed 28 May 2021]*/
 
 .box2{
 	width:60%;
@@ -510,11 +503,9 @@ background-attachment:fixed;
 	color:#fdeef4;
 	font-size: 30px;
 	text-align: center;
-	font-family: system-ui;
 }
 .box2 .detail p{
 	color:#fff8c6;
-	font-family: system-ui;
 	text-align: center;
 }
 .box2 .detail1 h1 {
@@ -523,12 +514,10 @@ background-attachment:fixed;
     color: #fdeef4;
     font-size: 30px;
     text-align: center;
-    font-family: system-ui;
 }
 
 .box2 .detail1 p{
 	color:#fff8c6;
-	font-family:system-ui;
 	text-align:center;
 }
 .box2 .detail1 p span{
@@ -536,18 +525,54 @@ background-attachment:fixed;
 	font-weight: bold;
 
 }
+.detail2 {
+	width:100px;
+	margin:20px;
+	display:grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap:30px;
+	margin-top:20px;
+	text-align:center;
+}
 
+.detail2 img{
+     transition: transform .3s;
+     width:100px;
+ }
+ .detail2 img:hover{
+ 	transform: translateY(10px);
+     
+ }
+ .detail2 h1{
+ 	color:#fff;
+ 	text-align:center;
+ }
+  .detail2 h3{
+ 	color:#fff;
+ }
+ .detail2 .icon{
+ 	border: 2px solid #fff;
+ 	border-radius:20px;
+ 	margin-bottom: 15px;
+ 
+ }
+ .socialmedia-title{
+ 	color:#fdeef4;
+ 	text-align:center;
+ 	margin-top:80px;
+ }
 .socialmedia-logo{
-	margin-top:300px;
+	
   	display:grid;
   	grid-template-columns: repeat(3, 1fr);
   	grid-gap:30px;
-  
+   
 	}
 	
 .socialmedia-logo img{
      transition: transform .3s;
      width:100px;
+
 }
 .socialmedia-logo img:hover{
 		transform: translateY(10px);
@@ -569,8 +594,16 @@ background-attachment:fixed;
 
 .socialmedia-logo p{
 	color:#fff8c6;
-	font-family:system-ui;
 	text-align:center;
+}
+ @media  (max-width: 991px){
+
+.cv-box{
+	margin-top:120px;
+}
+	
+
+ 
 }
 
   /*--portfolio--*/
@@ -580,7 +613,6 @@ background-attachment:fixed;
  background: url("IMG-20210514-WA0013.jpg");
  /*-- Photo clicked by me [Accessed 24 may 2021] ----*/
 background-repeat: no-repeat;
-background-position: cover;
 background-size: cover;
 background-attachment:fixed;
 
@@ -686,20 +718,42 @@ background-attachment:fixed;
 .page4{
 	background-color:#242526;
 }
+
 .report-content {
-	margin: 80px;
+	padding:90px;
 }
 .report-content h1{
 	text-align: center;
 	margin-right: 200px;
-
+	color:#45a29e;
+	text-shadow:-1px 1px 0px #BDC3C7,
+	              -2px 2px 0px #BDC3C7,
+	               -3px 3px 0px #BDC3C7,
+	               -4px 4px 0px #BDC3C7;
+	               
+	              
 }
 .report-content h2{
 	text-align: center;
 	margin-right: 200px;
+	color:#F5CBA7;
 }
+
+.report-content h3{
+	color: #138D75;
+	}
 .report-content p{
 	padding:5px;
+	color:#fff;
+	text-shadow: 0 0 10px rgba(91, 164, 224, 0.712),
+	             0 0 20px rgba(91, 164, 224, 0.712);
+	
+
+}
+.report-content a{
+   color: #0000FF;
+   text-decoration:underline;
+
 }
 .report-content .image2{
 	margin:70px;
@@ -785,3 +839,46 @@ background-attachment:fixed;
 		width:300px;
 
 	}
+	.skill-png{
+		text-align:center;
+		margin-right:120px;
+	}
+	.skill-png img{
+		width:100px;
+		border-radius:20px;
+	box-shadow:0 5px 35px #ebd8b7;
+    border:8px solid transparent;
+     transition: transform .3s;
+
+	}
+
+.cv-page{
+	margin:5px;
+  	display:grid;
+  	grid-template-columns: repeat(3, 1fr);
+  	grid-gap:30px;
+  
+	}
+	.cv-page img{
+	border-radius:20px;
+	box-shadow:0 5px 35px #ebd8b7;
+    border:8px solid transparent;
+     transition: transform .3s;
+     width:100px;
+		}
+
+	.cv-page .screenshot1{
+	
+		margin:30px;
+
+	}	
+	
+	.cv-reference{
+		text-align:center;
+	
+	}
+	.cv-reference img{
+		border-radius:20px;
+	box-shadow:0 5px 35px #ebd8b7;
+    border:8px solid transparent;
+     transition: transform .3s;	
