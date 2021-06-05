@@ -98,6 +98,22 @@ ul{
 	letter-spacing: 1px;
 	margin: 0px;
 	transform: translate(-50%,-50%);
+
+}
+
+.home-text h1{
+		animation: type 3s steps(18);
+	overflow:hidden;
+	white-space:nowrap;
+
+}
+@keyframes type{
+	0%{
+		width:0ch;
+	}
+	100%{
+		width:22ch;
+	}
 }
 .home-text h1 span{
 	color: red;
@@ -352,25 +368,23 @@ background-attachment:fixed;
 	border-radius: 10px 5px;
 }
 .cv-box{
-	width:800px;
-	height:1150px;
-	background-color:#000;
-	margin:0 auto;
-	border-radius:20px;
+	display:grid;
+	grid-template-columns: repeat(2, 1fr);
+	 width: 500px;
+    margin-left: 200px;
 }
 
 .box-outer{
 	padding:80px ;
-	width: 100%;
+
 
 }
 
 .box1{
 	background-color: #4682b4;
-	width:35%;
-	float:left;
-	height:1150px;
+	width:280px;
 	border-radius:20px;
+	padding:10px;
 }
 
 .mypic{
@@ -385,6 +399,7 @@ background-attachment:fixed;
 	color:#ceced1;
 	 font-weight: 500;
 	 padding-left: 50px;
+
 }
 .box1 h1:hover{
 
@@ -494,8 +509,10 @@ background-attachment:fixed;
 /* Developer.mozilla[online]. Available from:(https://developer.mozilla.org/en-US/docs/Web/CSS/::after)[Accessed 28 May 2021]*/
 
 .box2{
-	width:60%;
-	float:left;
+      background-color:#000;
+      margin-right: 200px;
+    width: 500px;
+    border-radius: 20px;
 	padding:20px;
 }
 .box2 .detail h1{
@@ -599,8 +616,13 @@ background-attachment:fixed;
  @media  (max-width: 991px){
 
 .cv-box{
-	margin-top:120px;
+	margin:10px;
+	grid-template-columns: repeat(1, 1fr);
 }
+.box1{
+	margin-left:100px;
+}
+
 	
 
  
@@ -622,7 +644,7 @@ background-attachment:fixed;
 	border-radius: 10px 5px;
   }
   .here2 span{
-  	color:red;
+  	color:#FF0000;
   }
   .here2:hover{
   	border-radius: 10px 10px;
@@ -882,3 +904,27 @@ background-attachment:fixed;
 	box-shadow:0 5px 35px #ebd8b7;
     border:8px solid transparent;
      transition: transform .3s;	
+ }
+ .transformation{
+ 	margin-top:40px;
+  	display:grid;
+  	grid-template-columns: repeat(2, 1fr);
+  	grid-gap:30px;
+  
+	}
+	.transformation img{
+	border-radius:20px;
+	box-shadow:0 5px 35px #ebd8b7;
+    border:8px solid transparent;
+     transition: transform .3s;
+     width:600px;
+
+ }
+ @media  (max-width: 991px){
+    .transformation{
+    	grid-template-columns:repeat(1, 1fr);
+    }
+
+
+
+ }
