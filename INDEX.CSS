@@ -92,7 +92,7 @@ ul{
 	position:fixed;
 	left:50%; 
 	top:50%;
-	width: 90%;
+	width: 96%;
 	color: #000;
 	font-style: italic;
 	letter-spacing: 1px;
@@ -200,9 +200,9 @@ border:8px solid transparent;
     	transform: rotate(-45deg);
     }
 }
-/* Luis Manuel(2017) [software].scotch.io. Available from:(https://scotch.io/tutorials/building-a-morphing-hamburger-menu-with-css)*/
+/* Manuel, L. (2017) [software].scotch.io. Available from:https://scotch.io/tutorials/building-a-morphing-hamburger-menu-with-css*/
 
-/* CodingNepal(2019) How to Create Responsive Navigation Bar using HTML and CSS  [Online].Available from:(https://www.youtube.com/watch?v=oLgtucwjVII&t=224s) [Accessed 23 May 2021]-*/
+/* CodingNepal(2019) How to Create Responsive Navigation Bar using HTML and CSS Youtube[Online].Available from:https://www.youtube.com/watch?v=oLgtucwjVII&t=224s[Accessed 23 May 2021]-*/
 
 
 
@@ -472,7 +472,7 @@ background-attachment:fixed;
 	width:30%;
 }
 
-/* Developer.mozilla[online]. Available from:(https://developer.mozilla.org/en-US/docs/Web/CSS/::after)[Accessed 28 May 2021]*/
+/* Developer.mozilla[online]. Available from:https://developer.mozilla.org/en-US/docs/Web/CSS/::after[Accessed 28 May 2021]*/
 
 #skill2{
 	background-color:#333;
@@ -490,7 +490,7 @@ background-attachment:fixed;
 	height:8px;
 	width:50%;
 }
-/* Developer.mozilla[online]. Available from:(https://developer.mozilla.org/en-US/docs/Web/CSS/::after)[Accessed 28 May 2021]*/
+/* Developer.mozilla[online]. Available from:https://developer.mozilla.org/en-US/docs/Web/CSS/::after[Accessed 28 May 2021]*/
 #skill3{
 	background-color:#333;
 	border-radius:12px;
@@ -506,7 +506,7 @@ background-attachment:fixed;
 	height:8px;
 	width:70%;
 }
-/* Developer.mozilla[online]. Available from:(https://developer.mozilla.org/en-US/docs/Web/CSS/::after)[Accessed 28 May 2021]*/
+/* Developer.mozilla[online]. Available from:https://developer.mozilla.org/en-US/docs/Web/CSS/::after[Accessed 28 May 2021]*/
 
 .box2{
       background-color:#000;
@@ -929,6 +929,11 @@ background-attachment:fixed;
   	grid-template-columns: repeat(2, 1fr);
   	grid-gap:30px;
   
+	}
+	.progress h3{
+      margin-top:50px;
+	text-align:center;
+
 	}
 	.transformation img{
 	border-radius:20px;
