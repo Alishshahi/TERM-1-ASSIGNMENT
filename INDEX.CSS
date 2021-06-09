@@ -101,6 +101,7 @@ ul{
 
 }
 
+
 .home-text h1{
 		animation: type 3s steps(18);
 	overflow:hidden;
@@ -118,6 +119,13 @@ ul{
 .home-text h1 span{
 	color: red;
 	font-weight: 700;
+}
+
+@media (max-width:750px){
+.home-text h1{
+	font-size:20px;
+
+}
 }
 .home-text p span{
 	color:red;
