@@ -6,7 +6,6 @@
 }
 .page{
  background: url("IMG-20210514-WA0013.jpg");
- /*-- Photo clicked by me [Accessed 24 may 2021] ----*/
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment:fixed;
@@ -15,7 +14,7 @@ background-attachment:fixed;
 
 :root{
   --color-1: rgba(0 0 0/ 64%);
-  /*  w3schools[Online]. Available from:(https://www.w3schools.com/css/tryit.asp?filename=trycss3_var)--*/
+  /* (EJ Media, 2020)*/
   }
 a{
 	text-decoration: none;
@@ -210,14 +209,14 @@ border:8px solid transparent;
 }
 /* Manuel, L. (2017) [software].scotch.io. Available from:https://scotch.io/tutorials/building-a-morphing-hamburger-menu-with-css*/
 
-/* CodingNepal(2019) How to Create Responsive Navigation Bar using HTML and CSS Youtube[Online].Available from:https://www.youtube.com/watch?v=oLgtucwjVII&t=224s[Accessed 23 May 2021]-*/
+/* CodingNepal(2019) How to Create Responsive Navigation Bar using HTML and CSS. Youtube[Online].Available from:https://www.youtube.com/watch?v=oLgtucwjVII&t=224s[Accessed 23 May 2021]-*/
 
 
 
 /*---contact page----*/
 .page1{
-	 background: url("IMG-20210514-WA0013.jpg");
-	 /*-- Photo clicked by me [Accessed 24 may 2021] ----*/
+
+background: url("IMG-20210514-WA0013.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment:fixed;
@@ -365,7 +364,6 @@ textarea{
   .page2{
 
 background: url("IMG-20210514-WA0013.jpg");
-/*-- Photo clicked by me [Accessed 24 may 2021] ----*/
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment:fixed;
@@ -480,7 +478,7 @@ background-attachment:fixed;
 	width:30%;
 }
 
-/* Developer.mozilla[online]. Available from:https://developer.mozilla.org/en-US/docs/Web/CSS/::after[Accessed 28 May 2021]*/
+/* (Developer.mozilla, n.d.) */
 
 #skill2{
 	background-color:#333;
@@ -498,7 +496,8 @@ background-attachment:fixed;
 	height:8px;
 	width:50%;
 }
-/* Developer.mozilla[online]. Available from:https://developer.mozilla.org/en-US/docs/Web/CSS/::after[Accessed 28 May 2021]*/
+/* (Developer.mozilla, n.d.)*/
+
 #skill3{
 	background-color:#333;
 	border-radius:12px;
@@ -514,7 +513,7 @@ background-attachment:fixed;
 	height:8px;
 	width:70%;
 }
-/* Developer.mozilla[online]. Available from:https://developer.mozilla.org/en-US/docs/Web/CSS/::after[Accessed 28 May 2021]*/
+/* (Developer.mozilla, n.d.)*/
 
 .box2{
       background-color:#000;
@@ -600,16 +599,19 @@ background-attachment:fixed;
 
 }
 .socialmedia-logo img:hover{
+
 		transform: translateY(10px);
 }
 .socialmedia-logo .facebook-logo{
 	margin:-3px;
 }
 	.socialmedia-logo .facebook-logo p{
+
 		margin-top:-15px;
 	}
 
 .socialmedia-logo .instagram-logo{
+
 	margin-top:5px;
 	}
 	.socialmedia-logo .twitter-logo img{
@@ -624,10 +626,12 @@ background-attachment:fixed;
  @media  (max-width: 991px){
 
 .cv-box{
+
 	margin:10px;
 	grid-template-columns: repeat(1, 1fr);
 }
 .box1{
+
 	margin-left:100px;
 }
 
@@ -640,36 +644,41 @@ background-attachment:fixed;
 
 
    .page3{
+
  background: url("IMG-20210514-WA0013.jpg");
- /*-- Photo clicked by me [Accessed 24 may 2021] ----*/
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment:fixed;
 
 }
   .here2{
+
 	background-color: rgb(0 150 136 / 52%);
 	border-radius: 10px 5px;
   }
   .here2 span{
+
   	color:#FF0000;
   }
   .here2:hover{
+
   	border-radius: 10px 10px;
 	background-color: crimson;
 	color: black;
 	box-shadow: 5px 10px 30px rgba(219, 47, 6, 0.5);
+
 	}
 
   
   .intro{
+
   	text-align: center;
   	padding-right: 50px;
   	padding: 15px;
 
 
-
   }
+
  .intro h2{
  	color:#fff;
 
@@ -958,3 +967,6 @@ background-attachment:fixed;
     }
 
  }
+ /* EJ Media(2020) CSS ROOT pseudo-class selector. Youtube[Online]. Available from:https://www.youtube.com/watch?v=Cu9Csqlr0oA[Accessed 23 May 2021]--*/
+
+ /*[Anon.][n.d.] Developer.mozilla[online]. Available from:https://developer.mozilla.org/en-US/docs/Web/CSS/::after[Accessed 28 May 2021]*/
