@@ -41,9 +41,10 @@ ul{
 	width: 100%;
 }
 /*--navbar--*/
+
 .header-items .nav{
 	padding:0 10px;
-
+	
 }
 .header-items .nav ul li{
 	display: inline-block;
@@ -195,21 +196,11 @@ border:8px solid transparent;
     .header-items #nav-check:focus ~ .nav-toggler{
     	box-shadow: 0 0 15px #000000;
     }
-    .header-items #nav-check:checked ~ .nav-toggler span{
-    	background-color: transparent;
-    }
-    .header-items #nav-check:checked ~ .nav-toggler span::before{
-    	top:0;
-    	transform: rotate(45deg);
-    }
-    .header-items #nav-check:checked ~ .nav-toggler span::after{
-    	top:0;
-    	transform: rotate(-45deg);
-    }
+   
 }
-/* Manuel, L. (2017) [software].scotch.io. Available from:https://scotch.io/tutorials/building-a-morphing-hamburger-menu-with-css*/
+/* (Manuel, 2017) 
 
-/* CodingNepal(2019) How to Create Responsive Navigation Bar using HTML and CSS. Youtube[Online].Available from:https://www.youtube.com/watch?v=oLgtucwjVII&t=224s[Accessed 23 May 2021]-*/
+/* (CodingNepal, 2019)
 
 
 
@@ -298,10 +289,8 @@ background-color:#ffffff80;
 font-style:italic;
 	}
  .box .text h3{
+
 	font-weight:bold;
-	
-	
-	
 }
 .main .d1{
 	background-color: rgb(0,0,0,0.5);
@@ -328,6 +317,7 @@ justify-content: center;
 align-items:center;
 margin-top:20px;
 }
+
 .main input#name{
 	width: 300px;
 	border-radius: 3px;
@@ -335,10 +325,12 @@ margin-top:20px;
 	padding: 7px;
 
 }
+
 .main input{
 	background-color: rgb(250,100,0,0.8);
 	color: #fff;
 }
+
 textarea{
 	background-color: rgb(250,100,0,0.8);
 	color: #fff;
@@ -758,6 +750,7 @@ background-attachment:fixed;
 }
 
 .report-content {
+	
 	padding:20px;
 }
 .report-content h1{
@@ -800,6 +793,7 @@ background-attachment:fixed;
     border:8px solid transparent;
        transition: transform .3s;
        
+       
 	}
 	.report-content img:hover{
 		transform: translateY(10px);
@@ -811,15 +805,31 @@ background-attachment:fixed;
 	box-shadow:0 5px 35px #ebd8b7;
     border:8px solid transparent;
     transition: transform .3s;
+   
 	}
 @media (max-width:991px){
 	 .report-content{
 	 	margin-right:-120px;
+	 	padding:20px 0px 0px 0px ;
 	 }
        .report-content h1{
        margin-top:70px;
+       padding-right:10px;
 
-       }  
+       } 
+       .report-content h2{
+       	padding-right:10px;
+       } 
+       .report-content .image1{
+       	margin:20px;
+       	width:100%;
+
+       }
+         .report-content .image2{
+       	margin:20px;
+       	width:100%;
+
+       }
 
 }
 
@@ -834,6 +844,7 @@ background-attachment:fixed;
 	box-shadow:0 5px 35px #ebd8b7;
     border:8px solid transparent;
     transition: transform .3s;
+    width:80%;
 		}
 	
 	.home-page .screenshot{
@@ -850,7 +861,12 @@ background-attachment:fixed;
 	.home-page{
 	grid-template-columns: repeat(1, 1fr);
 	text-align:center;
+
 }
+.home-page .screenshot{
+	margin:0;
+}
+
 }
 
 
@@ -866,6 +882,7 @@ background-attachment:fixed;
 	box-shadow:0 5px 35px #ebd8b7;
     border:8px solid transparent;
      transition: transform .3s;
+
 		}
 
 	.contact-page .screenshot1{
@@ -875,6 +892,11 @@ background-attachment:fixed;
 	@media (max-width:991px){
 		.contact-page{
 			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+	@media (max-width:500px){
+		.contact-page{
+			grid-template-columns:repeat(1,1fr);
 		}
 	}
 	
@@ -938,7 +960,13 @@ background-attachment:fixed;
  	.cv-page{
  	grid-template-columns: repeat(1, 1fr);
  	text-align:center;
+ 
  }
+}
+ @media  (max-width: 500px){
+ 	.cv-reference img{
+ 		width:300px;
+ 	}
 }
  .transformation{
  	margin-top:40px;
@@ -966,7 +994,17 @@ background-attachment:fixed;
     	text-align:center;
     }
 
+ @media  (max-width: 500px){
+ 	.transformation img{
+ 		width:400px;
+ 	}
+
  }
+
  /* EJ Media(2020) CSS ROOT pseudo-class selector. Youtube[Online]. Available from:https://www.youtube.com/watch?v=Cu9Csqlr0oA[Accessed 23 May 2021]--*/
 
  /*[Anon.][n.d.] Developer.mozilla[online]. Available from:https://developer.mozilla.org/en-US/docs/Web/CSS/::after[Accessed 28 May 2021]*/
+
+ /*CodingNepal(2019) How to Create Responsive Navigation Bar using HTML and CSS. Youtube[Online].Available from:https://www.youtube.com/watch?v=oLgtucwjVII&t=224s[Accessed 23 May 2021]-*/
+
+/* Manuel, L. (2017) [software].scotch.io. Available from:https://scotch.io/tutorials/building-a-morphing-hamburger-menu-with-css*/
