@@ -9,16 +9,17 @@
   <div class="header-items">
   	<div class="container1">
     <div class="menu1">
-     <!-- This checkbox will give us the toggle behaviour, it will be hidden but functional-->
+     <!-- This checkbox will give us the toggle behaviour, it will be hidden but functional -->
            <input type="checkbox" id="nav-check">
-              <!--This label is tied to the checkbox, and it will contain the toggle "buttons"-->
+              <!-- This label is tied to the checkbox, and it will contain the toggle "buttons" -->
                 <label for="nav-check" class="nav-toggler">  &#9776;</label>
-              <!--(Manuel, 2017)-->      
-          <!--navigation-->
+              <!--(Manuel, 2017)-->   
+
+          <!-- navigation -->
           <nav class="nav">
           	<ul>
+          		<li><a href="index.html">HOME</a></li>
           	<li><a href="portfolio.html">PORT<span>FOLIO</span></a></li>	
-          	<li><a href="index.html">HOME</a></li>
           	<li><a class="here1" href="#">CONTACT</a></li>
           	<li><a href="CV.html">CV</a></li> 
             <li><a href="sitereport.html">SITE REPORT</a></li>
@@ -27,22 +28,20 @@
 </div>
 </div>
 </div>
-	<section class="contact">
-	<div class="content">
+<!-- Contact overall content -->
+	
+	<div class="contact-content">
 		<h2> <u>My Contact</u></h2>
-		<p>This is my contact page.This page represents my address detail, phone number and my email id.</p>
 		</div> 
 		<div class="container">
 			<div class="ContactInfo">
-				<div class="box">
-				<div class="icon"><a href="#"><img src="address.png" alt="address icon"></a>
+				<div class="icon"><a href="#"><img src="address.png" alt="address icon"></a></div>
 					<!--(Pngtree, n.d.)-->
 
 				<div class="text">
 					<h3>ADDRESS</h3>
 					<p>Nepal<br>Dhangadhi,kailali<br>Sudurpashchim Province(07)<br>10900</p>
 				</div>
-			</div>
 			<br>
 	<div class="icon"><a href="#"><img src="contact.png" alt="contact icon"></a></div>
 	<!--(freeiconspng, n.d.)-->
@@ -57,11 +56,12 @@
 	<div class="text">
 		<h3>Email</h3>
 		<p>alishshahi893@gmail.com</p>
+     </div>
 </div>
-</div>
-</div>
-	<div class="main">
-	<div class="d1">
+
+<!-- Form to send messages -->
+
+	<div class="form-content">
 		<h2>Send Message</h2>
 			<form action="mailto:alishshahi893@gmail.com"  id="MESSAGE" method="post">
 				<fieldset>
@@ -84,16 +84,14 @@
 </fieldset><br>
 <fieldset>
 	<legend>Your Message</legend>
-	 <textarea required="required" placeholder="Type your Message"></textarea>
+	<textarea required="required" placeholder="Type your Message"></textarea>
   </fieldset>
 	<fieldset>
-	<input type="submit" name="Submit">
+	<input type="submit" name="Submit" id="submit">
 	</fieldset>
 </form>
 </div>
 </div>
-</div>
-</section>
 </body>
 </html>
 
